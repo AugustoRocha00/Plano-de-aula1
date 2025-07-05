@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plano de Aula - Educação Física</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f1f5f9; /* slate-100 */
+        transition: background-color 0.3s ease;
+      }
+      .dark body {
+        background-color: #0f172a; /* slate-900 */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "framer-motion": "https://esm.sh/framer-motion@^11.2.12"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="dark:bg-gray-900">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+    <header>
+        <h1>Plano de Aula - Educação Física</h1>
+        <nav>
+            <ul>
+                <li><a href="#objetivo">Objetivos</a></li>
+                <li><a href="#conteudo">Conteúdo</a></li>
+                <li><a href="#atividades">Atividades</a></li>
+                <li><a href="#avaliacao">Avaliação</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="objetivo">
+            <h2>Objetivos da Aula</h2>
+            <ul>
+                <li>Desenvolver coordenação motora</li>
+                <li>Promover trabalho em equipe</li>
+                <li>Estimular atividade física</li>
+            </ul>
+        </section>
+
+        <section id="conteudo">
+            <h2>Conteúdo Programático</h2>
+            <p>Atividades esportivas e recreativas para desenvolvimento motor.</p>
+        </section>
+
+        <section id="atividades">
+            <h2>Atividades Propostas</h2>
+            <div class="atividade">
+                <h3>Aquecimento (10 min)</h3>
+                <p>Exercícios de alongamento e movimentação básica.</p>
+            </div>
+            <div class="atividade">
+                <h3>Atividade Principal (25 min)</h3>
+                <p>Jogos e exercícios direcionados ao objetivo da aula.</p>
+            </div>
+            <div class="atividade">
+                <h3>Relaxamento (5 min)</h3>
+                <p>Atividades de desaquecimento e relaxamento.</p>
+            </div>
+        </section>
+
+        <section id="avaliacao">
+            <h2>Avaliação</h2>
+            <p>Observação da participação e desenvolvimento dos alunos durante as atividades.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
